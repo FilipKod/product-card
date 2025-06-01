@@ -6,3 +6,39 @@
   --color-cream: hsl(30, 38%, 92%);
   --color-white: hsl(0, 0%, 100%);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-cream);
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product {
+  width: 93%;
+  max-width: 350px;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  margin: 5rem auto;
+  overflow: hidden;
+}
+
+.product__image img {
+  object-fit: cover;
+  height: 244px;
+  width: 100%;
+  display: block;
+}
+
+.product__container {
+  padding: 2rem;
+}
