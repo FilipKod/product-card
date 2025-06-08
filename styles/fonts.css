@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "Fraunces 72pt";
+  font-family: "Fraunces";
   src: local("Fraunces 72pt Bold"), local("Fraunces72pt-Bold"),
     url("/fonts/Fraunces72pt-Bold.woff2") format("woff2"),
     url("/fonts/Fraunces72pt-Bold.woff") format("woff");
