@@ -126,6 +126,14 @@ img {
 }
 
 @media screen and (min-width: 712px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+  }
+
   .product {
     display: grid;
     grid-template-columns: 1fr 1fr;
